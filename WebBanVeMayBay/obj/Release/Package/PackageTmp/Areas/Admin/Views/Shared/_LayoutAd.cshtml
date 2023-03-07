@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Public/css/LayoutAd.css" rel="stylesheet" />
+    <link href="~/Public/css/css/all.min.css" rel="stylesheet" />
+    @*<link href="~/Library/font-awesome.css" rel="stylesheet" />
+        <link href="~/Library/style.css" rel="stylesheet" />*@
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    @RenderSection("head", required: false)
+    <style>
+        .background-bar {
+            background-color: #fd7128; /*xanh*/
+        }
+
+        .background-bg {
+            background-image: url(/Library//DatVe//img//air.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <section class="clearfix header background-bar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark background-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">HNK ADMIN</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#
+
+                            " aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Dashboard")">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Chuyến bay
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "Product")">Danh sách chuyến bay</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "Category")">Phân loại chuyến bay</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Create", "Product")">Thêm chuyến bay</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Create", "Category")">Thêm loại chuyến bay</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Vé Chuyến bay
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "Ticket")">Danh sách Vé chuyến bay</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("TicketSearch", "Ticket")">Tìm kiếm theo thông tin khách</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("TicketSearchMCB", "Ticket")">Tìm kiếm theo mã chuyến bay</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Giải quyết phản hồi
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "Complain")">Danh sách Phản hồi</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("ComplainSearch", "Complain")">Tìm kiếm Phản hồi</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class=" text-white" style="margin-left:500px">
+                            @*@if (!string.IsNullOrEmpty(Convert.ToString(Session["UserName"])))
+                            {
+                                using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#">Welcome : @Session["UserName"]</a></li>
+                                        <li><a href="javascript:document.getElementById('logoutForm').submit()">Logout</a></li>
+                                    </ul>
+                                }
+                            }
+                            else
+                            {
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>@Html.ActionLink("Log In", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                                </ul>
+                            }*@
+                            Quyền admin: @Session["UserName"]
+                            <a href="@Url.Action("Logoff","Account")" class="btn btn-sm" style="background-color: #fd7128; color: white"> Đăng xuất </a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="clearfix maincontent background-bg">
+        <div class="container-fluid py-3 ">
+            @RenderBody()
+        </div>
+    </section>
+    <section class="clearfix footer background-bar">
+        <div class="container-fluid text-white text-center py-3">
+            Design by HQK
+        </div>
+    </section>
+    @RenderSection("Footer", required: false)
+</body>
+</html>

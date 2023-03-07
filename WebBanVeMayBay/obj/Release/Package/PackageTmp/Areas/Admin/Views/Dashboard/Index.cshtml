@@ -1,0 +1,89 @@
+﻿@model IEnumerable<WebBanVeMayBay.Models.ProductCategory>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAd.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+}
+<div style="background-color: wheat; border-radius: 30px; opacity: 80% ">
+    <div class="">
+        <div class="row ">
+            <div class="col-md-9 ">
+                <strong class="text-uppercase text-center" style="text-align:center; padding-left:650px;">Danh sách chuyến bay</strong>
+            </div>
+            <div class="col-md-3 text-end">
+                <a href="@Url.Action("Create", "Product")" class="btn btn-sm" style="background-color: #fd7128; color: white">Thêm</a>
+                <a href="@Url.Action("Trash", "Product")" class="btn btn-sm" style="background-color: #fd7128; color: white">Thùng rác</a>
+            </div>
+        </div>
+    </div>
+    <h3 style="font-size:medium;text-align:center; color: red">@TempData["ErrorDeleteProduct"]</h3>
+    <div class=" p-3">
+        <table class="table table-borderless table-hover">
+            <thread>
+                <tr>
+                    @*<th style="width:20px;" class="text-center">#</th>*@
+                    <th>Mã chuyến bay</th>
+                    <th>Tên chuyến bay</th>
+                    <th>Loại chuyến bay</th>
+                    <th>Ngày bay</th>
+                    <th>Thời gian bay</th>
+                    <th>Điểm đi</th>
+                    <th>Điểm đến</th>
+                    <th>Thời gian bay (Phút)</th>
+                    <th>Số ghế trống</th>
+                    <th>Số ghế đặt</th>
+                    <th class="text-center">Chức năng</th>
+                    <th class="text-center">Mã chuyến bay</th>
+
+                </tr>
+
+            </thread>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*<th style="width:20px;" class="text-center">
+                                <input name="checkId" type="checkbox" />
+                            </th>*@
+                        <th>@item.Id</th>
+                        <th>@item.Name</th>
+                        <th>@item.CatName</th>
+                        <th>@item.Date</th>
+                        <th>@item.Time </th>
+                        <th>@item.PlanFrom</th>
+                        <th>@item.PlanTo</th>
+                        <th>@item.OnAir</th>
+                        <th>@item.Seat1</th>
+                        <th>@item.Seat2</th>
+                        <th class="text-center">
+                            @if (item.Status == 1)
+                            {
+                                <a href="@Url.Action("Status", "Product", new { @id = item.Id })" class="btn btn-sm btn-success ">
+                                    On
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Status", "Product", new { @id = item.Id })" class="btn btn-sm btn-danger ">
+                                    Off
+                                </a>
+                            }
+                            <a href="@Url.Action("Edit", "Product", new { @id = item.Id })" class="btn btn-sm btn-info ">
+                                Chỉnh sửa
+                            </a>
+                            <a href="@Url.Action("Details", "Product", new { @id = item.Id })" class="btn btn-sm btn-warning ">
+                                Chi tiết
+                            </a>
+                            <a href="@Url.Action("DelTrash", "Product", new { @id = item.Id })" class="btn btn-sm btn-danger ">
+                                Xóa
+                            </a>
+
+                        </th>
+                        <th class="text-center">@item.Id</th>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

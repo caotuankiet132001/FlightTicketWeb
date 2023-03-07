@@ -1,0 +1,61 @@
+﻿@model IEnumerable<WebBanVeMayBay.Models.Ticket>
+@{
+    ViewBag.Title = "Trash";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAd.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <strong class="text-uppercase text-danger">Thùng rác</strong>
+            </div>
+            <div class="col-md-6 text-end">
+                <a href="@Url.Action("Index", "Ticket")" class="btn btn-sm- btn-success">Trở lại danh sách</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-3">
+        <table class="table table-bordered table-hover">
+            <thread>
+                <tr>
+                    <th>Mã vé</th>
+                    <th>Mã chuyến bay</th>
+                    <th>Tên chuyến bay</th>
+                    <th>Ngày bay</th>
+                    <th>Thời gian bay</th>
+                    <th>Điểm đi</th>
+                    <th>Điểm đến</th>
+                    <th>Họ tên KH</th>
+                    <th>Căn cước công dân KH</th>
+                    <th>Số điện thoại</th>
+                    <th class="text-center">Chức năng</th>
+                </tr>
+            </thread>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>@item.Id</th>
+                        <th>@item.PlanId</th>
+                        <th>@item.PlanName</th>
+                        <th>@item.Date</th>
+                        <th>@item.Time </th>
+                        <th>@item.ClientName</th>
+                        <th>@item.ClientId</th>
+                        <th>@item.PhoneNumber</th>
+                        <th class="text-center">
+                            <a href="@Url.Action("Restore", "Ticket", new { @id = item.Id })" class="btn btn-sm btn-info ">
+                                Khôi phục
+                            </a>
+                            <a href="@Url.Action("Delete", "Ticket", new { @id = item.Id })" class="btn btn-sm btn-danger ">
+                                Xóa
+                            </a>
+                        </th>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

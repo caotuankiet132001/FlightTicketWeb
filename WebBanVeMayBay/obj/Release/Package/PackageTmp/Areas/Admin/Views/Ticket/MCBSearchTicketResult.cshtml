@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WebBanVeMayBay.Models.Ticket>
+@{
+    ViewBag.Title = "MCBSearchTicketResult";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAd.cshtml";
+}
+
+<div style="background-color: wheat; border-radius: 30px; opacity: 80% ">
+    <div class="">
+        <div class="">
+            <div class="">
+                <strong class="text-uppercase text-center" style="text-align:center; padding-left:600px;">Danh sách vé theo mã chuyến bay</strong>
+            </div>
+        </div>
+    </div>
+    <div class="p-3">
+        <table class="table table-borderless table-hover">
+            <thread>
+                <tr>
+                    <th>Mã vé:</th>
+                    <th>Mã chuyến bay</th>
+                    <th>Tên chuyến bay</th>
+                    <th>Ngày khởi hành</th>
+                    <th>Giờ khởi hành</th>
+                    <th>Giá vé</th>
+                    <th>Họ tên KH</th>
+                    <th>Căn cước công dân KH</th>
+                    <th>Số điện thoại KH</th>
+                    <th>Ngày đặt vé</th>
+                    <th>Trạng thái</th>
+                    <th class="text-center">Hủy vé</th>
+                </tr>
+            </thread>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>
+                            @item.Id
+                        </th>
+
+                        <th>@item.PlanId</th>
+
+                        <th>@item.PlanName</th>
+                        <th>@item.Date</th>
+
+                        <th>@item.Time</th>
+
+                        <th>@item.Price</th>
+
+                        <th>@item.ClientName</th>
+
+                        <th>@item.ClientId</th>
+                        <th>@item.PhoneNumber</th>
+                        <th>@item.CreateDate</th>
+                        <th>
+                            @if (item.Status == 0)
+                            {
+                                <p> Chưa thanh toán</p>
+                            }
+                            else
+                            {
+                                <p> Đã thanh toán</p>
+                            }
+                        </th>
+
+                        <th class="text-center">
+                            <a class="btn btn-sm btn-success"
+                               href="@Url.Action("Huyve", "TrangChu",
+                                    new {Id = item.Id
+                                    })"> Hủy Vé</a>
+                        </th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>

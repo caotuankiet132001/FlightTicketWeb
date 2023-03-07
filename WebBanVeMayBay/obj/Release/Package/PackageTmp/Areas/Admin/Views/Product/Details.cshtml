@@ -1,0 +1,88 @@
+﻿@model WebBanVeMayBay.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAd.cshtml";
+}
+<div class="card-body p-3">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="form-group">
+                <label> Tên chuyến bay: </label>
+                @Html.DisplayFor(model => model.Name)
+            </div>
+            <div class="form-group">
+                <label>Ghi chú: </label>
+                @Html.DisplayFor(model => model.Detail, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Sân bay đi: </label>
+                @Html.DisplayFor(model => model.PlanFrom, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Sân bay đến: </label>
+                @Html.DisplayFor(model => model.PlanTo, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Giờ bay: </label>
+                @Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Ngày bay: </label>
+                @Html.DisplayFor(model => model.Date, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Ngày - giờ bay: </label>
+                @Html.DisplayFor(model => model.DateTime, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Sân Bay Trung Gian: </label>
+
+                @Html.DisplayFor(model => model.MidAir, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Thời gian dừng (Phút): </label>
+
+                @Html.DisplayFor(model => model.BreakTime)
+            </div>
+            <div class="form-group">
+                <label>Thời gian bay (phút): </label>
+
+                @Html.DisplayFor(model => model.OnAir, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Loại chuyến bay: </label>
+                @Html.DisplayFor(model => model.CatId, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Số lượng vé: </label>
+                @Html.DisplayFor(model => model.Number, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Giá: </label>
+                @Html.DisplayFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Giá khuyến mãi: </label>
+                @Html.DisplayFor(model => model.Pricesale, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label> Trạng thái: </label>
+                @Html.DisplayFor(model => model.Status, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Số lượng ghế hạng 1: </label>
+                @Html.DisplayFor(model => model.Seat1, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label>Số lượng ghế hạng 2: </label>
+                @Html.DisplayFor(model => model.Seat2, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+</div>
+<p>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-sm" style="background-color: #fd7128; color: white">Trở lại danh sách</a>
+</p>

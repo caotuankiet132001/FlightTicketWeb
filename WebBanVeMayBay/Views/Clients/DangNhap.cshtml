@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link rel="stylesheet" href="~/Scripts/style.css" type="text/css" />
+    <link rel="stylesheet" href="~/Scripts/script.js" type="text/javascript" />
+}
+
+<div class="row">
+    <div class="offset-md-1 col-md-10 mb-3">
+        @using (Html.BeginForm("DangNhap", "Clients"))
+        {
+            <div class="form-body">
+                <div class="row">
+                    <div class="form-holder">
+                        <div class="form-content">
+                            <div class="form-items">
+                                <h3 class="text-center">Đăng Nhập</h3>
+                                <form class="requires-validation" novalidate>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="ClientAccount" placeholder="Tài khoản" required>
+
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="password" name="ClientPassword" placeholder="Mật khẩu" required>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button id="submit" type="submit" class="btn btn-primary mt-3" style="background-color:orangered">Đăng Nhập</button>
+                                    </div>
+                                    <p style="text-align:center; margin-top:10px;">Bạn chưa có tài khoản? <a style="text-decoration: none" href="@Url.Action("DangKy", "Clients")">Đăng ký ngay</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        }
+    </div>
+</div>
+@*<div class="row">
+        <div class="offset-md-1 col-md-10">
+            <h2 style="color: red;">@ViewBag.ThongBao</h2>
+
+            @using (Html.BeginForm("DangNhap", "Clients"))
+            {
+                @Html.ValidationSummary(true)
+                <div class="form-group">
+                    <label for="dangnhap">Tên đăng nhập:</label>
+                    @Html.TextBox("ClientAccount", null, new
+                    {
+                        @class = "form-control",
+                        @id =
+                    "ClientAccount",
+                        required = "required"
+                    })
+                </div>
+                <div class="form-group">
+                    <label for="matkhau">Mật khẩu:</label>
+                    @Html.Password("ClientPassword", null, new
+                    {
+                        @class = "form-control",
+                        @id =
+                    "ClientPassword",
+                        required = "required"
+                    })
+                </div>
+                <a href="@Url.Action("DangKy", "Clients")" class="btn btn-sm" style="background-color: #fd7128; color: white">ĐĂNG KÝ</a>
+                <button type="submit" class="btn btn-primary">ĐĂNG NHẬP</button>
+            }
+        </div>
+    </div>*@

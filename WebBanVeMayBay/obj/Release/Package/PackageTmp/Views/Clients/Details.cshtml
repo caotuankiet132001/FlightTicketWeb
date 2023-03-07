@@ -1,0 +1,62 @@
+﻿
+@model WebBanVeMayBay.Models.Client
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+}
+
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="">
+                <h3 class="text-center mb-4">Thông tin tích lũy</h3>
+                <form class="form-card" onsubmit="event.preventDefault()">
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label>Mã khách hàng: </label>
+                            @Html.TextBoxFor(model => model.Id, "", new { @class = "text-danger" })
+                            @*@Html.DisplayFor(model => model.Id, "", new { @class = "text-danger" })*@
+                            @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label>Tên khách hàng: </label>
+                            @Html.TextBoxFor(model => model.ClientName, "", new { @class = "text-danger" })
+                            @*@Html.DisplayFor(model => model.Name, "", new { @class = "text-danger" })*@
+                            @Html.ValidationMessageFor(model => model.ClientName, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label>CMND khách hàng: </label>
+                            @Html.TextBoxFor(model => model.ClientId, "", new { @class = "text-danger" })
+                            @*@Html.DisplayFor(model => model.Date, "", new { @class = "text-danger" })*@
+                            @Html.ValidationMessageFor(model => model.ClientId, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label>Số điện thoại khách hàng: </label>
+                            @Html.TextBoxFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                            @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                            @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label>Điểm tích lũy: </label>
+                            @Html.TextBoxFor(model => model.Point, "", new { @class = "text-danger" })
+                            @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                            @Html.ValidationMessageFor(model => model.Point, "", new { @class = "text-danger" })
+                        </div>
+                        
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            
+                            @*<input type="submit" value="Đặt vé" id="input-submit" style="background-color: #fd7128; color: white">*@
+                            <a href="@Url.Action("ClientSearch", "Clients")" class="btn btn-sm btn-info" style="padding: 1em; display: block; width: 100%; margin-top: 1em; margin-top: 50px; border-radius: 15px; padding-top: 15px; padding-bottom: 15px; background-color: #fd7128; color: white; border-color: #fd7128 ">
+                                OK
+                            </a>
+                            
+                            @*<button type="submit" class="btn-block btn-success align-content-md-center mt-2">Đặt vé</button>*@
+                        </div>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

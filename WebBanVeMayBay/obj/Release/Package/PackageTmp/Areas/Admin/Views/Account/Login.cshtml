@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutLogin.cshtml";
+    <link rel="stylesheet" href="~/Scripts/style.css" type="text/css" />
+    <link rel="stylesheet" href="~/Scripts/script.js" type="text/javascript" />
+}
+<div class="row">
+    <div class="offset-md-1 col-md-10 mb-3">
+        @using (Html.BeginForm("Login", "Account"))
+        {
+            <div class="form-body">
+                <div class="row">
+                    <div class="form-holder">
+                        <div class="form-content">
+                            <div class="form-items">
+                                <h3 class="text-center">Đăng Nhập</h3>
+                                <form class="requires-validation" novalidate>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="UserName" placeholder="Tài khoản" required>
+
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="password" name="Password" placeholder="Mật khẩu" required>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button id="submit" type="submit" class="btn btn-primary mt-3" style="background-color:orangered">Đăng Nhập</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>

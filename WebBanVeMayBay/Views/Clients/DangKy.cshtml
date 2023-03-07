@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link rel="stylesheet" href="~/Scripts/style.css" type="text/css" />
+    <link rel="stylesheet" href="~/Scripts/script.js" type="text/javascript" />
+
+}
+<div class="row">
+    <div class="offset-md-1 col-md-10 mb-3">
+        @using (Html.BeginForm("DangKy", "Clients"))
+        {
+            <div class="form-body">
+                <div class="row">
+                    <div class="form-holder">
+                        <div class="form-content">
+                            <div class="form-items">
+                                <h3 class="text-center">Đăng Ký Tài Khoản</h3>
+                                <form class="requires-validation" novalidate>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="ClientAccount" placeholder="Tài khoản" required>
+                                        <div class="valid-feedback">Tài khoản hợp lệ!</div>
+                                        <div class="invalid-feedback">Tài khoản không được để trống!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="password" name="ClientPassword" placeholder="Mật khẩu" required>
+                                        <div class="valid-feedback">Mật khẩu hợp lệ!</div>
+                                        <div class="invalid-feedback">Mật khẩu không được để trống!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="ClientName" placeholder="Họ tên" required>
+                                        <div class="valid-feedback">  </div>
+                                        <div class="invalid-feedback">Họ tên không được để trống!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="PhoneNumber" placeholder="Số điện thoại" required>
+                                        <div class="valid-feedback">   </div>
+                                        <div class="invalid-feedback">Số điện thoại không được để trống!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="email" name="ClientEmail" placeholder="Email" required>
+                                        <div class="valid-feedback">  </div>
+                                        <div class="invalid-feedback">Email không được để trống!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="ClientId" placeholder="Căn cước công dân" required>
+                                        <div class="valid-feedback">   </div>
+                                        <div class="invalid-feedback">Căn cước công dân không được để trống!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="ClientAddress" placeholder="Địa chỉ" required>
+                                        <div class="valid-feedback">  </div>
+                                        <div class="invalid-feedback">Địa chỉ không được để trống!</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <select name="ClientSex">
+                                            <option selected>Nam</option>
+                                            <option value="Nữ">Nữ</option>
+                                        </select>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button id="submit" type="submit" class="btn btn-primary mt-3" style="background-color:orangered">Đăng Ký</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">ĐĂNG KÝ</button>
+        }
+    </div>
+</div>

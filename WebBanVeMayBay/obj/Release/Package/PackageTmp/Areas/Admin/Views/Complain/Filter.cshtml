@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WebBanVeMayBay.Models.Complain>
+@{
+    ViewBag.Title = "Filter";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAd.cshtml";
+}
+
+
+@using (Html.BeginForm("Filter", "Complain", FormMethod.Get))
+{
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6">
+                    <strong class="text-uppercase">Danh sách phản hồi</strong>
+                </div>
+                <div class="col-md-6 text-end">
+                    <select name="Filter">
+                        <option selected>Bộ lọc</option>
+                        <option value="Đã giải quyết">Đã giải quyết</option>
+                        <option value="Chưa giải quyết">Chưa giải quyết</option>
+                    </select>
+                    <button class="btn btn-sm btn-success">Lọc</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body p-3">
+            <table class="table table-bordered table-hover">
+                <thread>
+                    <tr>
+                        @*<th style="width:20px;" class="text-center">#</th>*@
+                        <th>Mã phiếu phản hồi</th>
+                        <th>Loại phản hồi</th>
+                        <th>Chi tiết</th>
+                        <th>Họ tên KH</th>
+                        <th>CCCD KH</th>
+                        <th>Số điện thoại KH</th>
+                        <th>Ngày gửi</th>
+
+                        <th class="text-center">Chức năng</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th>@item.Id</th>
+                            <th>@item.Type</th>
+                            <th>@item.Detail</th>
+                            <th>@item.ClientName </th>
+                            <th>@item.ClientId</th>
+                            <th>@item.PhoneNumber</th>
+                            <th>@item.CreateSend</th>
+
+                            <th class="text-center">
+                                @if (item.status == 0)
+                                {
+                                    <a href="@Url.Action("Status", "Complain", new { @id = item.Id })" class="btn btn-sm btn-danger ">
+                                        Chưa giải quyết
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("Status", "Complain", new { @id = item.Id })" class="btn btn-sm btn-success ">
+                                        Đã giải quyết
+                                    </a>
+                                }
+                                <a href="@Url.Action("Delete", "Complain", new { @id = item.Id })" class="btn btn-sm btn-danger ">
+                                    Xóa
+                                </a>
+                            </th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+

@@ -1,0 +1,118 @@
+﻿@model WebBanVeMayBay.Models.Ticket
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAd.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken();
+
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6">
+                    <strong class="text-uppercase">Xác nhận xóa vé</strong>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="@Url.Action("Index", "Ticket")" class="btn btn-sm- btn-success">Trở lại danh sách</a>
+                    <input type="submit" value="Delete" class="btn btn-sm btn-danger" />
+                </div>
+            </div>
+        </div>
+        <div class="card-body p-3">
+            <div class="alert alert-warning">
+                <strong> Thông báo</strong> Bạn có chắc muốn xóa vé này không?
+            </div>
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Id)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Id)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.PlanId)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PlanId)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PlanName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PlanName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ClientId)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ClientId)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ClientName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ClientName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PhoneNumber)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PhoneNumber)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Date)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Date)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Time)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Time)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CreateDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CreateDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Status)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Status)
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+}

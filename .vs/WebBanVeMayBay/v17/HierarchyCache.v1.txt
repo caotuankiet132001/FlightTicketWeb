@@ -1,0 +1,520 @@
+﻿++Solution 'WebBanVeMayBay' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:WebBanVeMayBay.sln
+++WebBanVeMayBay
+i:{00000000-0000-0000-0000-000000000000}:WebBanVeMayBay
+++Properties
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\properties\
+++References
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++App_Data
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\app_data\
+++App_Start
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\app_start\
+++RouteConfig.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\app_start\routeconfig.cs
+++Areas
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\
+++Admin
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\
+++Controllers
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\controllers\
+++AccountController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\accountcontroller.cs
+++AuthController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\authcontroller.cs
+++BaseController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\basecontroller.cs
+++CategoryController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\categorycontroller.cs
+++ComplainController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\complaincontroller.cs
+++DashboardController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\dashboardcontroller.cs
+++LoginController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\logincontroller.cs
+++PermissionsController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\permissionscontroller.cs
+++ProductController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\productcontroller.cs
+++RolesController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\rolescontroller.cs
+++TicketController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\controllers\ticketcontroller.cs
+++Data
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\data\
+++Helper
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\helper\
+++CustomAuthenticationFilter.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\helper\customauthenticationfilter.cs
+++CustomAuthorizeAttribute.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\helper\customauthorizeattribute.cs
+++Model
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\model\
+++CustomRoleProvider.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\model\customroleprovider.cs
+++Login.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\model\login.cs
+++Views
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\
+++Account
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\account\
+++Auth
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\auth\
+++Base
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\base\
+++Category
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\category\
+++Complain
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\complain\
+++Dashboard
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\dashboard\
+++Login
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\login\
+++Permissions
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\permissions\
+++Product
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\product\
+++Roles
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\roles\
+++Shared
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\shared\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\shared\
+++_LayoutAd.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\shared\_layoutad.cshtml
+++_LayoutLogin.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\shared\_layoutlogin.cshtml
+++Ticket
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\
+++web.config
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\web.config
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\web.config
+++AdminAreaRegistration.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\adminarearegistration.cs
+++Content
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\
+++bootstrap-grid.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap-utilities.rtl.min.css.map
+++bootstrap.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.css
+++bootstrap.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.css.map
+++bootstrap.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\css\bootstrap.min.css
+++bootstrap.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\content\bootstrap.rtl.min.css.map
+++ClientsController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\controllers\clientscontroller.cs
+++DatVeController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\controllers\datvecontroller.cs
+++SearchController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\controllers\searchcontroller.cs
+++TrangchuController.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\controllers\trangchucontroller.cs
+++Library
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\
+++DatVe
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\datve\
+++css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\css\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\
+++img
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\img\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\img\
+++Datve.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\datve.css
+++bootstrap.bundle.min.js.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\bootstrap.bundle.min.js.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.bundle.min.js.map
+++font-awesome.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\font-awesome.css
+++home.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\home.css
+++home2.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\home2.css
+++home3.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\home3.js
+++login.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\login.js
+++login1.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\login1.js
+++login2.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\login2.css
+++login3.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\login3.css
+++MyString.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\mystring.cs
+++style.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\style.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\css\style.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\style.css
+++Migrations
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\migrations\
+++Configuration.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\migrations\configuration.cs
+++Models
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\
+++Bill.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\bill.cs
+++Category.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\category.cs
+++Client.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\client.cs
+++Complain.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\complain.cs
+++Permission.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\permission.cs
+++Product.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\product.cs
+++ProductCategory.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\productcategory.cs
+++Role.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\role.cs
+++Ticket.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\ticket.cs
+++User.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\user.cs
+++WebBanVeMayBayDBContext.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\models\webbanvemaybaydbcontext.cs
+++Public
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\
+++Scripts
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\
+++Search
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\search\
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\search\
+++Clients
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\
+++ChangePassword.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\changepassword.cshtml
+++ClientSearch.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\clientsearch.cshtml
+++Complain.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\complain.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\complain.cshtml
+++Create.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\create.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\category\create.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\permissions\create.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\product\create.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\roles\create.cshtml
+++DangKy.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\dangky.cshtml
+++DangNhap.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\dangnhap.cshtml
+++Delete.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\delete.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\category\delete.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\complain\delete.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\permissions\delete.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\product\delete.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\roles\delete.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\delete.cshtml
+++Details.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\details.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\category\details.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\permissions\details.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\product\details.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\roles\details.cshtml
+++Edit.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\edit.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\category\edit.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\permissions\edit.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\product\edit.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\roles\edit.cshtml
+++Index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\category\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\complain\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\dashboard\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\login\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\permissions\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\product\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\roles\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\datve\index.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\index.cshtml
+++Info.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\info.cshtml
+++SearchClientResult.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\searchclientresult.cshtml
+++Ticket.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\ticket.cshtml
+++Update.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\clients\update.cshtml
+++_LayoutSite.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\shared\_layoutsite.cshtml
+++Trangchu
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\
+++Global.asax
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\global.asax
+++Global.asax.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\global.asax.cs
+++packages.config
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\packages.config
+++Web.config
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\web.config
+++Web.Debug.config
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\web.debug.config
+++Web.Release.config
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\web.release.config
+++AssemblyInfo.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\properties\assemblyinfo.cs
+++Settings.settings
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\properties\settings.settings
+++EntityFramework
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++EntityFramework.SqlServer
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++Microsoft.CSharp
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++Microsoft.Web.Infrastructure
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.ComponentModel.DataAnnotations
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Configuration
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Core
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Data
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Data.DataSetExtensions
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Drawing
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.EnterpriseServices
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.ApplicationServices
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.DynamicData
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.Entity
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.Extensions
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.Helpers
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.Mvc
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.Razor
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.Services
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.WebPages
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.WebPages.Deployment
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Web.WebPages.Razor
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Xml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++System.Xml.Linq
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:
+++Login.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\account\login.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\auth\login.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\login\login.cshtml
+++LogOff.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\account\logoff.cshtml
+++Logout.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\auth\logout.cshtml
+++Trash.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\category\trash.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\product\trash.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\trash.cshtml
+++ComplainSearch.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\complain\complainsearch.cshtml
+++ComplainSearchResult.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\complain\complainsearchresult.cshtml
+++Filter.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\complain\filter.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\filter.cshtml
+++BillExport.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\billexport.cshtml
+++MCBSearchTicketResult.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\mcbsearchticketresult.cshtml
+++SearchTicketResult.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\searchticketresult.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\searchticketresult.cshtml
+++TicketSearch.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\ticketsearch.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\ticketsearch.cshtml
+++TicketSearchMCB.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\areas\admin\views\ticket\ticketsearchmcb.cshtml
+++air.jpg
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\img\air.jpg
+++Airplane.jpg
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\img\airplane.jpg
+++background.jpg
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\library\datve\img\background.jpg
+++js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\js\
+++webfonts
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\
+++bootstrap.bundle.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.bundle.min.js
+++bootstrap.esm.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.esm.min.js.map
+++bootstrap.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.js
+++bootstrap.js.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.js.map
+++bootstrap.min.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.min.js
+++bootstrap.min.js.map
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\bootstrap.min.js.map
+++script.js
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\script.js
+++style-form.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\scripts\style-form.css
+++Confirm.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\datve\confirm.cshtml
+++CreateTicket.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\datve\createticket.cshtml
+++SearchResult.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\search\searchresult.cshtml
+++DatVe.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\datve.cshtml
+++Huyve.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\huyve.cshtml
+++Search.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\search.cshtml
+++Search2.cshtml
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\views\trangchu\search2.cshtml
+++Settings.Designer.cs
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\properties\settings.designer.cs
+++LayoutAd.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\layoutad.css
+++fa-brands-400.eot
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-brands-400.eot
+++fa-brands-400.svg
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-brands-400.svg
+++fa-brands-400.ttf
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-brands-400.ttf
+++fa-brands-400.woff
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-brands-400.woff
+++fa-brands-400.woff2
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-brands-400.woff2
+++fa-regular-400.eot
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-regular-400.eot
+++fa-regular-400.svg
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-regular-400.svg
+++fa-regular-400.ttf
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-regular-400.ttf
+++fa-regular-400.woff
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-regular-400.woff
+++fa-regular-400.woff2
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-regular-400.woff2
+++fa-solid-900.eot
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-solid-900.eot
+++fa-solid-900.svg
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-solid-900.svg
+++fa-solid-900.ttf
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-solid-900.ttf
+++fa-solid-900.woff
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-solid-900.woff
+++fa-solid-900.woff2
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\webfonts\fa-solid-900.woff2
+++all.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\all.css
+++all.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\all.min.css
+++brands.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\brands.css
+++brands.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\brands.min.css
+++fontawesome.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\fontawesome.css
+++fontawesome.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\fontawesome.min.css
+++regular.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\regular.css
+++regular.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\regular.min.css
+++solid.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\solid.css
+++solid.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\solid.min.css
+++svg-with-js.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\svg-with-js.css
+++svg-with-js.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\svg-with-js.min.css
+++v4-shims.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\v4-shims.css
+++v4-shims.min.css
+i:{99ff7025-9ed6-42af-9d50-02501bb0f8e8}:d:\do an cnpmnc\19dh110856_nguyentrunghieu_banvemaybay\webbanvemaybay\webbanvemaybay\public\css\css\v4-shims.min.css

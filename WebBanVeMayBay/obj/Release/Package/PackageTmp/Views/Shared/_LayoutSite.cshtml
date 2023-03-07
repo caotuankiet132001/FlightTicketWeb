@@ -1,0 +1,108 @@
+﻿@*<!DOCTYPE html>
+    <html>
+    <head>
+        <title>@Page.Title</title>
+        @RenderSection("head", required: false)
+    </head>
+    <body>
+        @RenderBody()
+    </body>
+    </html>*@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    <link href="~/Library/home.css" rel="stylesheet" />
+    <script src="~/Library/home1.js"></script>
+    <link href="~/Library/home2.css" rel="stylesheet" />
+    <script src="~/Library/home3.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Public/css/LayoutAd.css" rel="stylesheet" />
+    <link href="~/Public/css/css/all.min.css" rel="stylesheet" />
+    <link href="~/Library/DatVe/Datve.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    @RenderSection("head", required: false)
+
+    <style>
+        .background-bar {
+            background-color: #fd7128; /*xanh*/
+        }
+
+        .background-bg {
+            background-image: url(/Library//DatVe//img//air.jpg);
+            background-size: cover;
+            /*background-color: #D1D1D1;*/ /*Xám*/
+        }
+    </style>
+    </head>
+
+<body>
+
+    <section class="clearfix header background-bar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark background-bar" style="height:60px">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">HNK</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-md-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Trangchu")">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="@Url.Action("Complain", "Trangchu")">Giải quyết khiếu nại</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="@Url.Action("TicketSearch", "Trangchu")">Tra cứu vé</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="@Url.Action("ClientSearch", "Clients")">Tra cứu điểm tích lũy</a>
+                            </li>
+                            @*@Html.Partial("LoginPartial")*@
+                        </ul>
+                        <form class=" text-white" style="margin-left:500px">
+                            @if (!string.IsNullOrEmpty(Convert.ToString(Session["UserName"])))
+                            {
+                                <div class="dropdown nav navbar-nav navbar-right" style="margin-top: -40px; margin-left: 150px">
+                                    <button style="background-color: #fd7128; height:30px; color:white;" class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        @Session["ClientName"]
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="@Url.Action("Info", "Clients", new { @id = @Session["Id"] })">Thông tin tài khoản</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Ticket", "Clients", new { @id = @Session["Id"] })">Vé của bạn</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("ChangePassword", "Clients", new { @id = @Session["Id"] })">Đổi mật khẩu</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Complain", "Clients", new { @id = @Session["Id"] })">Lịch sử khiếu nại</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("DangXuat", "Clients", new { @id = @Session["ClientId"] })">Đăng xuất</a></li>
+                                    </ul>
+                                </div>
+                            }
+                            else
+                            {
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="@Url.Action("DangNhap","Clients")" class="btn btn-sm" style="background-color: #fd7128; color: white"> Đăng Nhập </a> </li>
+                                    @*<li>@Html.ActionLink("Log In", "DangNhap", "Clients", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>*@
+                                </ul>
+                            }
+                            @*Xin chào @Session["UserName"]
+                                <a href="@Url.Action("Login","Account")" class="btn btn-sm" style="background-color: #fd7128; color: white"> Đăng xuất </a>*@
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="clearfix maincontent ">
+        <div class="container-fluid py-3 background-bg">
+            @RenderBody()
+        </div>
+    </section>
+    <section class="clearfix footer background-bar">
+        <div class="container-fluid text-black-50 text-center py-3">
+            <a class="text-white">Design by HQK</a>
+        </div>
+    </section>
+    @RenderSection("Footer", required: false)
+</body>
+</html>

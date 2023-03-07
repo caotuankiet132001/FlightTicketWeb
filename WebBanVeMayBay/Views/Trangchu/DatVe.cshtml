@@ -1,0 +1,76 @@
+﻿@model WebBanVeMayBay.Models.Datve
+@{
+    ViewBag.Title = "DatVe";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+}
+
+
+<body>
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="">
+                    <h3 class="text-center mb-4">Đặt vé</h3>
+                    @using (Html.BeginForm("Index", "DatVe", FormMethod.Get))
+                    {
+
+                        <form class="form-card" onsubmit="event.preventDefault()">
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Mã chuyến bay: </label>
+                                    @Html.TextBoxFor(model => model.Id, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Id, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Tên chuyến bay: </label>
+                                    @Html.TextBoxFor(model => model.Name, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Name, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Ngày bay: </label>
+                                    @Html.TextBoxFor(model => model.Date, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Date, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Giờ bay: </label>
+                                    @Html.TextBoxFor(model => model.Time, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Time, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Giá vé (Vnd): </label>
+                                    @Html.TextBoxFor(model => model.Price, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Họ và tên<span class="text-danger"> *</span></label>
+                                    <input type="text" id="ClientName" name="ClientName" placeholder="Nhập họ và tên của bạn" onblur="validate(1)">
+                                </div>
+
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Căn cước công dân<span class="text-danger"> *</span></label>
+                                    <input type="text" id="ClientId" name="ClientId" placeholder="Nhập căn cước công dân" onblur="validate(2)">
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Số điện thoại<span class="text-danger"> *</span></label>
+                                    <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="Số điện thoại" onblur="validate(1)">
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <a href="@Url.Action("Index", "Trangchu")" style="background-color: #fd7128; color: white; border: 0; padding: 1em; outline: 0; border-radius: 8px; display: block; width: 100%; margin-top: 1em; font-family: 'Merriweather', sans-serif; box-shadow: 0 1px 1px rgb(0 0 0 / 10%); text-align:center; text-decoration:none"  >Quay lại</a>
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <input type="submit" value="Đặt vé" id="input-submit" style="background-color: #fd7128; color: white">
+                                    @*<button type="submit" class="btn-block btn-success align-content-md-center mt-2">Đặt vé</button>*@
+                                </div>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

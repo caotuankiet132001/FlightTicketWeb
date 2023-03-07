@@ -1,0 +1,90 @@
+﻿@model WebBanVeMayBay.Models.Ticket
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+}
+<body>
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="">
+                    <h3 class="text-center mb-4">Xác nhận thông tin đặt vé</h3>
+                    @using (Html.BeginForm("CreateTicket", "DatVe", FormMethod.Get))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <form class="form-card" onsubmit="event.preventDefault()">
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Mã chuyến bay: </label>
+                                    @Html.TextBoxFor(model => model.PlanId, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Id, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.PlanId, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Tên chuyến bay: </label>
+                                    @Html.TextBoxFor(model => model.PlanName, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Name, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.PlanName, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Ngày bay: </label>
+                                    @Html.TextBoxFor(model => model.Date, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Date, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Giờ bay: </label>
+                                    @Html.TextBoxFor(model => model.Time, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Time, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Giá vé (Vnd): </label>
+                                    @Html.TextBoxFor(model => model.Price, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Họ tên: </label>
+                                    @Html.TextBoxFor(model => model.ClientName, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.ClientName, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Căn cước công dân: </label>
+                                    @Html.TextBoxFor(model => model.ClientId, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.ClientId, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label>Số điện thoại: </label>
+                                    @Html.TextBoxFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                                    @*@Html.DisplayFor(model => model.Time, "", new { @class = "text-danger" })*@
+                                    @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                                </div>
+
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <a href="@Url.Action("Index", "Trangchu")" style="background-color: #fd7128; color: white; border: 0; padding: 1em; outline: 0; border-radius: 8px; display: block; width: 100%; margin-top: 1em; font-family: 'Merriweather', sans-serif; box-shadow: 0 1px 1px rgb(0 0 0 / 10%); text-align:center; text-decoration:none">Quay lại</a>
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <input type="submit" value="Đặt vé" id="input-submit" style="background-color: #fd7128; color: white">
+                                    @*<button type="submit" class="btn-block btn-success align-content-md-center mt-2">Đặt vé</button>*@
+                                </div>
+                            </div>
+                            @*<div class="form-group col-sm-6 flex-column d-flex pt-sm-4">
+                                        <button type="submit" class="btn-block btn-success align-content-md-center mt-2">Đặt vé</button>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between text-left">
+                                    <div class="form-group col-sm-12 flex-column d-flex pt-sm-4"> <a href="@Url.Action("Index", "Trangchu")" class="btn-block btn-success align-content-md-center mt-2 text-center ">Quay lại</a> </div>
+                                </div>*@
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

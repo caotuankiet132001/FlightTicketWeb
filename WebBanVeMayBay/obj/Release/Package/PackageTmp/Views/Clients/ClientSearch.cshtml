@@ -1,0 +1,41 @@
+﻿@model WebBanVeMayBay.Models.Client
+@{
+    ViewBag.Title = "ClientSearch";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+}
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="">
+                <h3 class="text-center mb-4">Tra cứu điểm tích lũy của bạn</h3>
+                @using (Html.BeginForm("Details", "Clients", FormMethod.Get))
+                {
+                    <form class="cf">
+                        <div class="half left cf">
+                            <input type="text" name="ClientId" placeholder="Căn cước công dân">
+                        </div>
+                        <div class="half right cf">
+                            <input type="text" name="PhoneNumber" placeholder="Số điện thoại">
+                        </div>
+                        <input type="submit" value="Tra cứu" id="input-submit" style="background-color: #fd7128; color: white">
+                    </form>
+
+                    @*<div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3"> Căn cước công dân:</label>
+                                <input type="text" id="ClientId" name="ClientId" placeholder="Nhập căn cước công dân của bạn" onblur="validate(1)">
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3"> Số điện thoại:</label>
+                                <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="Nhập số điện thoại của bạn" onblur="validate(1)">
+                            </div>
+                        </div>
+                        <div class="row justify-content-between text-center">
+                            <div class="form-group col-sm-12 flex-column d-flex pt-sm-4"> <button style="background-color: #fd7128; color: white" name="submit" type="submit" value="Tìm kiếm" class="btn-block btn-success align-content-md-center mt-2">Tra cứu</button></div>
+                        </div>*@
+                }
+            </div>
+        </div>
+    </div>
+</div>

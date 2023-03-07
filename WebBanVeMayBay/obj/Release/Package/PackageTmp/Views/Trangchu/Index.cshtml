@@ -1,0 +1,181 @@
+﻿@model WebBanVeMayBay.Models.ProductForHomePageViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+    <script src="~/Scripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#eventshow1").click(function () {
+                $(".eventshow").show();
+                $("#eventshow1").hide();
+                $("#1chieu").hide();
+                $("#2chieu").show();
+            });
+        });
+        $("#eventshow").ready(function () {
+            $(".eventshow").hide();
+            $("#2chieu").hide();
+        });
+
+
+    </script>
+}
+<body>
+    <div class="container-fluid px-1 py-5 mx-auto" style="background-color:none">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="">
+                    <h3 class="text-center mb-4">Tìm kiếm chuyến bay</h3>
+                    <div id="1chieu">
+                        @using (Html.BeginForm("Search", "Trangchu", FormMethod.Get))
+                        {
+                            <form class="cf">
+                                <div class="half left cf">
+                                    <select name="SeletedPlanFromId">
+                                        <option selected>Chọn điểm khởi hành</option>
+                                        <option value="Hà Nội">Hà Nội</option>
+                                        <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                                        <option value="Đà Nẵng">Đà Nẵng</option>
+                                        <option value="Nha Trang">Nha Trang</option>
+                                        <option value="Đà Lạt">Đà Lạt</option>
+                                        <option value="Hải Phòng">Hải Phòng</option>
+                                        <option value="Phú Quốc">Phú Quốc</option>
+                                    </select>
+                                    <p style="margin-top:30px; text-align:left"> Ngày khởi hành</p>
+                                    <input type="date" name="date" placeholder="Ngày khởi hành">
+                                </div>
+                                <div class="half right cf">
+                                    <select name="SeletedPlanToId">
+                                        <option selected>Chọn điểm đến</option>
+                                        <option value="Hà Nội">Hà Nội</option>
+                                        <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                                        <option value="Đà Nẵng">Đà Nẵng</option>
+                                        <option value="Nha Trang">Nha Trang</option>
+                                        <option value="Đà Lạt">Đà Lạt</option>
+                                        <option value="Hải Phòng">Hải Phòng</option>
+                                        <option value="Phú Quốc">Phú Quốc</option>
+                                    </select>
+                                    <input  type="button" value="Khứ hồi" id="eventshow1" style="background-color: white; color: black;margin-top:70px">
+                                    <p class="eventshow" style="margin-top:30px;  text-align:left"> Ngày về</p>
+                                    <input class="eventshow" type="date" name="date2" placeholder="Ngày khứ hồi">
+                                </div>
+
+                                <input type="submit" value="Tìm kiếm" id="input-submit" style="background-color: #fd7128; color: white">
+                            </form>
+                        }
+                    </div>
+
+                    <div id="2chieu">
+                        @using (Html.BeginForm("Search2", "Trangchu", FormMethod.Get))
+                        {
+                            <form class="cf">
+                                <div class="half left cf">
+                                    <select name="SeletedPlanFromId">
+                                        <option selected>Chọn điểm khởi hành</option>
+                                        <option value="Hà Nội">Hà Nội</option>
+                                        <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                                        <option value="Đà Nẵng">Đà Nẵng</option>
+                                        <option value="Nha Trang">Nha Trang</option>
+                                        <option value="Đà Lạt">Đà Lạt</option>
+                                        <option value="Hải Phòng">Hải Phòng</option>
+                                        <option value="Phú Quốc">Phú Quốc</option>
+                                    </select>
+                                    <p style="margin-top:30px; text-align:left"> Ngày khởi hành</p>
+                                    <input type="date" name="date" placeholder="Ngày khởi hành">
+                                </div>
+                                <div class="half right cf">
+                                    <select name="SeletedPlanToId">
+                                        <option selected>Chọn điểm đến</option>
+                                        <option value="Hà Nội">Hà Nội</option>
+                                        <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                                        <option value="Đà Nẵng">Đà Nẵng</option>
+                                        <option value="Nha Trang">Nha Trang</option>
+                                        <option value="Đà Lạt">Đà Lạt</option>
+                                        <option value="Hải Phòng">Hải Phòng</option>
+                                        <option value="Phú Quốc">Phú Quốc</option>
+                                    </select>
+                                    @*<input type="button" value="Khứ hồi" id="eventshow1" style="background-color: #fd7128; color: white;margin-top:70px">*@
+                                    <p style="margin-top:30px;  text-align:left"> Ngày về</p>
+                                    <input type="date" name="date2" placeholder="Ngày khứ hồi">
+                                </div>
+
+                                <input type="submit" value="Tìm kiếm" id="input-submit" style="background-color: #fd7128; color: white">
+                            </form>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div style="background-color: wheat; border-radius: 30px; opacity: 80% ">
+        <div class="">
+            <div class="">
+                <div class="">
+                    <strong class="text-uppercase text-center" style="text-align:center; padding-left:600px;">Danh sách chuyến bay hiện có</strong>
+                </div>
+            </div>
+        </div>
+        <div class="p-3">
+            <table class="table table-borderless table-hover">
+                <thread>
+                    <tr>
+                        <th>Tên chuyến bay</th>
+                        <th>Loại chuyến bay</th>
+                        <th>Ngày khởi hành</th>
+                        <th>Giờ khởi hành</th>
+                        <th>Điểm đi</th>
+                        <th>Điểm đến</th>
+                        <th>Thời gian bay (Phút)</th>
+                        <th>Số ghế trống</th>
+                        <th>Số ghế đặt</th>
+                        <th>Giá vé</th>
+                        <th class="text-center">Đặt mua vé</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    @foreach (var item in Model.ListProductCategory)
+                    {
+                        <tr>
+                            @*<th class="text-center">
+                                    <a href="@Url.Action("DatVe","Trangchu")" id="datVe" name="Datve" type="submit" class="btn btn-sm- btn-success">Đặt vé</a>
+                                </th>*@
+                            <th>
+                                @item.Name
+                            </th>
+
+                            <th>@item.CatName</th>
+
+                            <th>@item.Date</th>
+                            <th>@item.Time</th>
+
+                            <th>@item.PlanFrom</th>
+
+                            <th>@item.PlanTo</th>
+
+                            <th>@item.OnAir</th>
+
+                            <th>@item.Seat1</th> @*cần xử lý tính số ghế trống và số ghế đặt*@
+                            <th>@item.Seat2</th>
+                            <th>@item.Price</th>
+                            <th class="text-center">
+                                <a class="btn btn-sm" style="background-color: #fd7128; color: white"
+                                   href="@Url.Action("DatVe", "TrangChu",
+                                    new {id = item.Id, name = item.Name, date = item.Date, time = item.Time, Price = item.Price})"> Đặt Vé</a>
+                            </th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+

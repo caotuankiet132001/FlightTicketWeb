@@ -1,0 +1,79 @@
+﻿@model WebBanVeMayBay.Models.Complain
+@{
+    ViewBag.Title = "Complain";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+}
+
+
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="">
+                <h3 class="text-center mb-4">Gửi phản hồi</h3>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <form class="cf">
+                        <div class="half left cf">
+                            <select name="Type">
+                                <option selected>Chọn Loại khiếu nại</option>
+                                <option value="Thái độ nhân viên">Thái độ nhân viên</option>
+                                <option value="Lỗi Website">Lỗi Website</option>
+                                <option value="Đóng góp ý kiến">Đóng góp ý kiến</option>
+                                <option value="Khác">Khác</option>
+                            </select>
+                            @*<input type="text" id="input-subject" placeholder="Subject">*@
+                            <input type="text" id="input-subject" name="ClientName" placeholder="Họ tên">
+                            <input type="text" id="input-subject" name="PhoneNumber" placeholder="Số điện thoại">
+                        </div>
+
+                        <div class="half right cf">
+                            <textarea type="text" id="input-subject" name="Detail" placeholder="Chi tiết phản hồi"></textarea>
+                            <input type="text" id="input-subject" name="ClientId" placeholder="Căn cước công dân">
+                        </div>
+                        <input type="submit" value="Gửi" id="input-submit" style="background-color: #fd7128; color: white" onclick="alert('Gửi phản hồi thành công')">
+                    </form>
+
+
+                    @*<div class="row justify-content-between text-left">
+                <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3"> Loại khiếu nại </label>
+                    <select name="Type">
+                        <option selected>Chọn Loại khiếu nại</option>
+                        <option value="Thái độ nhân viên">Thái độ nhân viên</option>
+                        <option value="Lỗi Website">Lỗi Website</option>
+                        <option value="Đóng góp ý kiến">Đóng góp ý kiến</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </div>
+                <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3"> Chi tiết phản hồi</label>
+                    @Html.TextAreaFor(model => model.Detail, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Detail, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="row justify-content-between text-left">
+                <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3">Họ và tên<span class="text-danger"> *</span></label>
+                    <input type="text" id="ClientName" name="ClientName" placeholder="Nhập họ và tên của bạn" onblur="validate(1)">
+                </div>
+
+                <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3">Căn cước công dân<span class="text-danger"> *</span></label>
+                    <input type="text" id="ClientId" name="ClientId" placeholder="Nhập căn cước công dân" onblur="validate(2)">
+                </div>
+                <div class="form-group col-sm-6 flex-column d-flex">
+                    <label class="form-control-label px-3">Số điện thoại<span class="text-danger"> *</span></label>
+                    <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="Số điện thoại" onblur="validate(1)">
+                </div>
+                <div class="form-group col-sm-6 flex-column d-flex pt-sm-4"> <button style="background-color: #fd7128; color: white" name="submit" type="submit" value="Gửi" onclick="alert('Gửi phản hồi thành công')" class="btn-block  align-content-md-center mt-2">Gửi</button></div>
+            </div>*@
+                }
+                @*</form>*@
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebBanVeMayBay.Models.Complain>
+@{
+    ViewBag.Title = "Complain";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    <link href="~/Scripts/style-form.css" rel="stylesheet" />
+
+}
+
+<div style="background-color: wheat; border-radius: 30px; opacity: 80% ">
+    <div class="">
+        <div class="">
+            <div class="">
+                <strong class="text-uppercase text-center" style="text-align:center; padding-left:650px;">Lịch sử phản hồi</strong>
+            </div>
+        </div>
+    </div>
+    <div class="p-3">
+        <table class="table table-borderless table-hover">
+            <thread>
+                <tr>
+                    @*<th style="width:20px;" class="text-center">#</th>*@
+                    <th>Mã phiếu phản hồi</th>
+                    <th>Loại phản hồi</th>
+                    <th>Chi tiết</th>
+                    <th>Họ tên KH</th>
+                    <th>CCCD KH</th>
+                    <th>Số điện thoại KH</th>
+                    <th>Ngày gửi</th>
+                    <th class="text-center">Trạng thái</th>
+                </tr>
+            </thread>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>@item.Id</th>
+                        <th>@item.Type</th>
+                        <th>@item.Detail</th>
+                        <th>@item.ClientName </th>
+                        <th>@item.ClientId</th>
+                        <th>@item.PhoneNumber</th>
+                        <th>@item.CreateSend</th>
+                        <th class="text-center">
+                            @if (item.status == 0)
+                            {
+                                <a href="" class="btn btn-sm btn-danger ">
+                                    Chờ giải quyết
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="" class="btn btn-sm btn-success ">
+                                    Đã giải quyết
+                                </a>
+                            }
+                        </th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

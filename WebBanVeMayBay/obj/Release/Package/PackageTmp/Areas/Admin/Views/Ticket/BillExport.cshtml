@@ -1,0 +1,84 @@
+﻿@model WebBanVeMayBay.Models.Bill
+@{
+    ViewBag.Title = "BillExport";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAd.cshtml";
+}
+
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="card">
+                <h3 class="text-center mb-4">Hóa đơn mua vé</h3>
+                <div class="row justify-content-between text-left">
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Mã hóa đơn:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.Id)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Mã vé:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.TicketId)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Mã chuyến bay:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.PlanId)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Tên chuyến bay:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.PlanName)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Ngày bay:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.Date)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Giờ bay:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.Time)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Giá vé:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.Price)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Họ tên KH:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.ClientName)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3"> Căn cước công dân KH:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.ClientId)
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        <label class="form-control-label px-3">Số điện thoại KH:</label>
+                    </div>
+                    <div class="form-group col-sm-3 flex-column d-flex">
+                        @Html.DisplayFor(model => model.PhoneNumber)
+                    </div>
+                </div>
+                <div class="row justify-content-between text-center">
+                    <div class="form-group col-sm-12 flex-column d-flex pt-sm-4">
+                        <a href="@Url.Action("Index", "Ticket")" class="btn btn-sm btn-info ">
+                            OK
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
